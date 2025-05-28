@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>	
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ParallaxRadars" />
+            <Icon>Textures\GUI\Icons\Cubes\dergrubengraeber_PanelRadar_Flat.dds</Icon>
+            <DisplayName>Parallax Panels</DisplayName>
+            <Description>Radar Blocks Commissioned by dergrubengraeber</Description>
+            <Blocks>     
+				<Block Type="MyObjectBuilder_TextPanel" Subtype="LG_dergrubengraeber_Parallax_Flat" />
+				<Block Type="MyObjectBuilder_TextPanel" Subtype="LG_dergrubengraeber_Parallax_Sloped" />
+				<Block Type="MyObjectBuilder_TextPanel" Subtype="SG_dergrubengraeber_Parallax_Flat" />
+				<Block Type="MyObjectBuilder_TextPanel" Subtype="SG_dergrubengraeber_Parallax_Sloped" />
+            </Blocks>
+        </BlockVariantGroup>
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="FrontlineRadars" />
+            <Icon>Textures\GUI\Icons\Cubes\dergrubengraeber_PanelRadar_Flat.dds</Icon>
+            <DisplayName>Parallax Panels</DisplayName>
+            <Description>Radar Blocks Commissioned by dergrubengraeber</Description>
+            <Blocks>     
+				<Block Type="MyObjectBuilder_ButtonPanel" Subtype="LG_dergrubengraeber_Frontline_Flat" />
+				<Block Type="MyObjectBuilder_ButtonPanel" Subtype="LG_dergrubengraeber_Frontline_Sloped" />
+				<Block Type="MyObjectBuilder_ButtonPanel" Subtype="SG_dergrubengraeber_Frontline_Flat" />
+				<Block Type="MyObjectBuilder_ButtonPanel" Subtype="SG_dergrubengraeber_Frontline_Sloped" />
+            </Blocks>
+        </BlockVariantGroup>
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SpyglassRadars" />
+            <Icon>Textures\GUI\Icons\Cubes\dergrubengraeber_PanelRadar_Flat.dds</Icon>
+            <DisplayName>Parallax Panels</DisplayName>
+            <Description>Radar Blocks Commissioned by dergrubengraeber</Description>
+            <Blocks>     
+				<Block Type="MyObjectBuilder_ButtonPanel" Subtype="LG_dergrubengraeber_Spyglass_Flat" />
+				<Block Type="MyObjectBuilder_ButtonPanel" Subtype="LG_dergrubengraeber_Spyglass_Sloped" />
+				<Block Type="MyObjectBuilder_ButtonPanel" Subtype="SG_dergrubengraeber_Spyglass_Flat" />
+				<Block Type="MyObjectBuilder_ButtonPanel" Subtype="SG_dergrubengraeber_Spyglass_Sloped" />
+            </Blocks>
+        </BlockVariantGroup>
+	</BlockVariantGroups>
+</Definitions>
+
+
+
+                
+				

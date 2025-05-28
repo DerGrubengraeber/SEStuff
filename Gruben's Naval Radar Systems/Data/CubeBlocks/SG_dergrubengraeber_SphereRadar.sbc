@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+			<Id>
+				<TypeId>TextPanel</TypeId>
+				<SubtypeId>SG_dergrubengraeber_SphereRadar</SubtypeId>
+			</Id>
+			<DisplayName>RF308 'Sentinel' Radar</DisplayName>
+			<Description>The RF308 is a high-power fire control system that allows the equipped warship to lock onto tracks, providing extreme accuracy and even passive Jump tracking on it's larger variant.
+Max Radiated Power: 5000 kW
+Gain: 70 dB
+Sensitivity: -34 dB
+Max Search Range: 8000 m
+Aperture Size: 100 m²
+Position Error: 30 m
+Velocity Error: 1 m/s
+Can Target Lock: Yes
+			Model By Azreal</Description>
+			<Icon>Textures\GUI\Icons\Cubes\dergrubengraeber_SphereRadar.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="5" y="5" z="5"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\SG_dergrubengraeber_SphereRadar.mwm</Model>
+			<Components>
+                <Component Subtype="SteelPlate" Count="100" />
+                <Component Subtype="Construction" Count="200" />
+                <Component Subtype="LargeTube" Count="40" />
+                <Component Subtype="Computer" Count="150" />
+				<Component Subtype="Superconductor" Count="200" />
+                <Component Subtype="RadioCommunication" Count="400" />
+                <Component Subtype="SteelPlate" Count="120" />
+            </Components>
+            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="5.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\SG_dergrubengraeber_SphereRadar_BS1.mwm"/>
+			</BuildProgressModels>
+			<BuildTimeSeconds>40</BuildTimeSeconds>
+			<BlockPairName>dergrubengraeber_SphereRadar</BlockPairName>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>10</RequiredPowerInput>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

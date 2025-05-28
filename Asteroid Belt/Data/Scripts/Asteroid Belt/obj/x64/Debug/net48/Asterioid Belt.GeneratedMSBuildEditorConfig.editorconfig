@@ -1,0 +1,7 @@
+is_global = true
+build_property.ProjectDir = C:\Users\carlh\AppData\Roaming\SpaceEngineers\Mods\Asteroid Belt\Data\Scripts\Asteroid Belt\
+build_property.ProjectDir = C:\Users\carlh\AppData\Roaming\SpaceEngineers\Mods\Asteroid Belt\Data\Scripts\Asteroid Belt\
+build_property.Mdk-IgnorePaths = **\*.debug.cs|obj\**\*
+build_property.RootNamespace = Asterioid_Belt
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

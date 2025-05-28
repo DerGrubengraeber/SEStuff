@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+			<Id>
+				<TypeId>BatteryBlock</TypeId>
+				<SubtypeId>SG_dergrubengraeber_Huntress</SubtypeId>
+			</Id>
+			<DisplayName>Bulwark Huntress</DisplayName>
+			<Description>A specially commissioned improvement on high end civilian navigation radars, the Huntress was commissioned by the OSP for rapid development and deployment. These radars provide improved track quality and range compared to other civilian counterparts, but they aren't easy to come by.
+Max Radiated Power: 4000 kW
+Gain: 40 dB
+Sensitivity: -38 dB
+Max Search Range: 5000 m
+Aperture Size: 60 m²
+Position Error: 45 m
+Velocity Error: 5 m/s
+Can Target Lock: No
+Model By Azreal</Description>
+			<Icon>Textures\GUI\Icons\Cubes\dergrubengraeber_MR.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\SG_dergrubengraeber_MR.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\SG_dergrubengraeber_MR_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>dergrubengraeber_Huntress</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>40</BuildTimeSeconds>
+			<ResourceSourceGroup>Battery</ResourceSourceGroup>
+			<MaxPowerOutput>0.5</MaxPowerOutput>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>2</RequiredPowerInput>
+			<AdaptibleInput>true</AdaptibleInput>
+			<MaxStoredPower>0.1</MaxStoredPower>
+			<InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+			<RechargeMultiplier>0.8</RechargeMultiplier>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<Public>true</Public>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>15</PCU>
+			<IsAirTight>true</IsAirTight>
+			<TargetingGroups>
+				<string>PowerSystems</string>
+			</TargetingGroups>
+		</Definition>
+		
+		<Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+			<Id>
+				<TypeId>BatteryBlock</TypeId>
+				<SubtypeId>SG_dergrubengraeber_Ithaca</SubtypeId>
+			</Id>
+			<DisplayName>Ithaca Bridgemaster</DisplayName>
+			<Description>The bog-standard of civilian navigation radars, the Bridgemaster by Ithaca provides decent track quality for maneuvering in tight spaces such as busy ports, but its range and resistance to jamming leaves much to be desired.
+Max Radiated Power: 3100 kW
+Gain: 40 dB
+Sensitivity: -34 dB
+Max Search Range: 4500 m
+Aperture Size: 60 m²
+Position Error: 20 m
+Velocity Error: 5 m/s
+Can Target Lock: No
+Model By Azreal</Description>
+			<Icon>Textures\GUI\Icons\Cubes\dergrubengraeber_MR.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\SG_dergrubengraeber_MR.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\SG_dergrubengraeber_MR_BS1.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>dergrubengraeber_Ithaca</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>40</BuildTimeSeconds>
+			<ResourceSourceGroup>Battery</ResourceSourceGroup>
+			<MaxPowerOutput>0.5</MaxPowerOutput>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>1.2</RequiredPowerInput>
+			<AdaptibleInput>true</AdaptibleInput>
+			<MaxStoredPower>0.1</MaxStoredPower>
+			<InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+			<RechargeMultiplier>0.8</RechargeMultiplier>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<Public>true</Public>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>15</PCU>
+			<IsAirTight>true</IsAirTight>
+			<TargetingGroups>
+				<string>PowerSystems</string>
+			</TargetingGroups>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

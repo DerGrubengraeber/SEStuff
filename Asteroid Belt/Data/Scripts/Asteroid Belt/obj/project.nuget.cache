@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "iXHF5zneNvXENM6yHexcdirNJHUf/L0mlxvvSXtQS2yU4Dn4hX3PCGM4zMgSm4qexFh7qmOazgNVPUag8CjcwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carlh\\AppData\\Roaming\\SpaceEngineers\\Mods\\Asteroid Belt\\Data\\Scripts\\Asteroid Belt\\Asterioid Belt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carlh\\.nuget\\packages\\mal.mdk2.modanalyzers\\2.1.10\\mal.mdk2.modanalyzers.2.1.10.nupkg.sha512",
+    "C:\\Users\\carlh\\.nuget\\packages\\mal.mdk2.references\\2.2.4\\mal.mdk2.references.2.2.4.nupkg.sha512",
+    "C:\\Users\\carlh\\.nuget\\packages\\microsoft.build.framework\\17.12.6\\microsoft.build.framework.17.12.6.nupkg.sha512",
+    "C:\\Users\\carlh\\.nuget\\packages\\microsoft.build.utilities.core\\17.12.6\\microsoft.build.utilities.core.17.12.6.nupkg.sha512",
+    "C:\\Users\\carlh\\.nuget\\packages\\microsoft.io.redist\\6.0.1\\microsoft.io.redist.6.0.1.nupkg.sha512",
+    "C:\\Users\\carlh\\.nuget\\packages\\microsoft.net.stringtools\\17.12.6\\microsoft.net.stringtools.17.12.6.nupkg.sha512",
+    "C:\\Users\\carlh\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\carlh\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
+    "C:\\Users\\carlh\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "C:\\Users\\carlh\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\carlh\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\carlh\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

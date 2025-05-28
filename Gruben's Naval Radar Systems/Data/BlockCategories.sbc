@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CategoryClasses>
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>Gruben's Naval Radars</DisplayName>
+            <Name>Radars</Name>
+            <StrictSearch>true</StrictSearch>
+            <ItemIds>
+				<string>ButtonPanel/dergrubengraeber_RadarStation</string>
+				<string>ButtonPanel/LG_dergrubengraeber_PanelRadar_Flat</string>
+				<string>ButtonPanel/LG_dergrubengraeber_PanelRadar_Sloped</string>
+				<string>TextPanel/LG_dergrubengraeber_SphereRadar</string>
+				<string>ButtonPanel/LG_dergrubengraeber_Spyglass_Flat</string>
+				<string>ButtonPanel/LG_dergrubengraeber_Frontline_Flat</string>
+				<string>TextPanel/LG_dergrubengraeber_Parallax_Flat</string>
+				<string>BatteryBlock/LG_dergrubengraeber_Huntress</string>
+				<string>BatteryBlock/LG_dergrubengraeber_Ithaca</string>
+				<string>Beacon/LG_dergrubengreaber_IFF</string>
+            </ItemIds>
+        </Category>
+    </CategoryClasses>
+</Definitions>
+                

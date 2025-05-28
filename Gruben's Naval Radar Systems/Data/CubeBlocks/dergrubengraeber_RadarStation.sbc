@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+			<Id>
+				<TypeId>ButtonPanel</TypeId>
+				<SubtypeId>dergrubengraeber_RadarStation</SubtypeId>
+			</Id>
+			<DisplayName>Atlas Radar Array</DisplayName>
+			<Description>
+The Atlas Radar Array is a large, high power, long range radar station. It allows detection of ships over very high ranges, however it is not very accurate.
+Max Radiated Power: 4500 kW
+Gain: 50 dB
+Sensitivity: -36 dB
+Max Search Range: 40000 m
+Aperture Size: 250 m²
+Position Error: 150 m
+Velocity Error: 10 m/s
+Can Target Lock: No		
+Model By Azreal</Description>
+			<Icon>Textures\GUI\Icons\Cubes\dergrubengraeber_RadarStation.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="5" y="3" z="4"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\dergrubengraeber_RadarStation.mwm</Model>
+			<Components>
+                <Component Subtype="SteelPlate" Count="500" />
+                <Component Subtype="Construction" Count="130" />
+                <Component Subtype="LargeTube" Count="20" />
+                <Component Subtype="Computer" Count="150" />
+                <Component Subtype="RadioCommunication" Count="300" />
+                <Component Subtype="SteelPlate" Count="100" />
+            </Components>
+            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\dergrubengraeber_RadarStation_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\dergrubengraeber_RadarStation_BS2.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>dergrubengraeber_RadarStation</BlockPairName>
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
+			<RequiredPowerInput>150</RequiredPowerInput>
+			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

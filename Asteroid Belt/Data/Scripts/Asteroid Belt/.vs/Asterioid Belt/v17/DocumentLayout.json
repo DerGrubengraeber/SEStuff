@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carlh\\AppData\\Roaming\\SpaceEngineers\\Mods\\Asteroid Belt\\Data\\Scripts\\Asteroid Belt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B76AC3E-6FCF-416F-BF94-3007D8E0ED1F}|Asterioid Belt.csproj|c:\\users\\carlh\\appdata\\roaming\\spaceengineers\\mods\\asteroid belt\\data\\scripts\\asteroid belt\\particlering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B76AC3E-6FCF-416F-BF94-3007D8E0ED1F}|Asterioid Belt.csproj|solutionrelative:particlering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B76AC3E-6FCF-416F-BF94-3007D8E0ED1F}|Asterioid Belt.csproj|c:\\users\\carlh\\appdata\\roaming\\spaceengineers\\mods\\asteroid belt\\data\\scripts\\asteroid belt\\asteroidfiltertoruscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B76AC3E-6FCF-416F-BF94-3007D8E0ED1F}|Asterioid Belt.csproj|solutionrelative:asteroidfiltertoruscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B76AC3E-6FCF-416F-BF94-3007D8E0ED1F}|Asterioid Belt.csproj|c:\\users\\carlh\\appdata\\roaming\\spaceengineers\\mods\\asteroid belt\\data\\scripts\\asteroid belt\\beltconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B76AC3E-6FCF-416F-BF94-3007D8E0ED1F}|Asterioid Belt.csproj|solutionrelative:beltconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B76AC3E-6FCF-416F-BF94-3007D8E0ED1F}|Asterioid Belt.csproj|c:\\users\\carlh\\appdata\\roaming\\spaceengineers\\mods\\asteroid belt\\data\\scripts\\asteroid belt\\torus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B76AC3E-6FCF-416F-BF94-3007D8E0ED1F}|Asterioid Belt.csproj|solutionrelative:torus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B76AC3E-6FCF-416F-BF94-3007D8E0ED1F}|Asterioid Belt.csproj|c:\\users\\carlh\\appdata\\roaming\\spaceengineers\\mods\\asteroid belt\\data\\scripts\\asteroid belt\\asteroidfilterapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B76AC3E-6FCF-416F-BF94-3007D8E0ED1F}|Asterioid Belt.csproj|solutionrelative:asteroidfilterapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AsteroidFilterApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\carlh\\AppData\\Roaming\\SpaceEngineers\\Mods\\Asteroid Belt\\Data\\Scripts\\Asteroid Belt\\AsteroidFilterApiClient.cs",
+              "RelativeDocumentMoniker": "AsteroidFilterApiClient.cs",
+              "ToolTip": "C:\\Users\\carlh\\AppData\\Roaming\\SpaceEngineers\\Mods\\Asteroid Belt\\Data\\Scripts\\Asteroid Belt\\AsteroidFilterApiClient.cs",
+              "RelativeToolTip": "AsteroidFilterApiClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T10:23:42.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AsteroidFilterTorusCore.cs",
+              "DocumentMoniker": "C:\\Users\\carlh\\AppData\\Roaming\\SpaceEngineers\\Mods\\Asteroid Belt\\Data\\Scripts\\Asteroid Belt\\AsteroidFilterTorusCore.cs",
+              "RelativeDocumentMoniker": "AsteroidFilterTorusCore.cs",
+              "ToolTip": "C:\\Users\\carlh\\AppData\\Roaming\\SpaceEngineers\\Mods\\Asteroid Belt\\Data\\Scripts\\Asteroid Belt\\AsteroidFilterTorusCore.cs",
+              "RelativeToolTip": "AsteroidFilterTorusCore.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T10:23:41.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BeltConfig.cs",
+              "DocumentMoniker": "C:\\Users\\carlh\\AppData\\Roaming\\SpaceEngineers\\Mods\\Asteroid Belt\\Data\\Scripts\\Asteroid Belt\\BeltConfig.cs",
+              "RelativeDocumentMoniker": "BeltConfig.cs",
+              "ToolTip": "C:\\Users\\carlh\\AppData\\Roaming\\SpaceEngineers\\Mods\\Asteroid Belt\\Data\\Scripts\\Asteroid Belt\\BeltConfig.cs",
+              "RelativeToolTip": "BeltConfig.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T10:23:39.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ParticleRing.cs",
+              "DocumentMoniker": "C:\\Users\\carlh\\AppData\\Roaming\\SpaceEngineers\\Mods\\Asteroid Belt\\Data\\Scripts\\Asteroid Belt\\ParticleRing.cs",
+              "RelativeDocumentMoniker": "ParticleRing.cs",
+              "ToolTip": "C:\\Users\\carlh\\AppData\\Roaming\\SpaceEngineers\\Mods\\Asteroid Belt\\Data\\Scripts\\Asteroid Belt\\ParticleRing.cs",
+              "RelativeToolTip": "ParticleRing.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADwAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T10:23:35.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Torus.cs",
+              "DocumentMoniker": "C:\\Users\\carlh\\AppData\\Roaming\\SpaceEngineers\\Mods\\Asteroid Belt\\Data\\Scripts\\Asteroid Belt\\Torus.cs",
+              "RelativeDocumentMoniker": "Torus.cs",
+              "ToolTip": "C:\\Users\\carlh\\AppData\\Roaming\\SpaceEngineers\\Mods\\Asteroid Belt\\Data\\Scripts\\Asteroid Belt\\Torus.cs",
+              "RelativeToolTip": "Torus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T10:23:29.046Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
