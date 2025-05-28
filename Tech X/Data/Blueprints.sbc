@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+		<!-- Resource Processing -->
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>OreXToIngot</SubtypeId>
+            </Id>
+            <DisplayName>Ore X Refining</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1000" TypeId="Ore" SubtypeId="OreX" />
+            </Prerequisites>
+            <Results>
+                <Item Amount="14" TypeId="Ingot" SubtypeId="IngotX" />
+            </Results>
+            <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+        </Blueprint>
+      
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TechXComponentCrafting</SubtypeId>
+            </Id>
+            <DisplayName>Component X</DisplayName>
+            <Icon>Textures\TechXComp.dds</Icon>
+            <Prerequisites>
+                <Item Amount="6" TypeId="Ingot" SubtypeId="IngotX" />
+				<Item Amount="6" TypeId="Ingot" SubtypeId="Gold" />
+				<Item Amount="6" TypeId="Ingot" SubtypeId="Platinum" />
+				<Item Amount="6" TypeId="Ingot" SubtypeId="Silver" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="TechXComponent" />
+            <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+
+        
+    </Blueprints>
+</Definitions>
