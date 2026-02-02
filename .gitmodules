@@ -1,0 +1,3 @@
+[submodule "SeRadarPBAPI"]
+	path = SeRadarPBAPI
+	url = https://github.com/DerGrubengraeber/SeRadarPBAPI.git
