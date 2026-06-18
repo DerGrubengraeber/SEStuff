@@ -480,12 +480,12 @@ namespace NerdRadar.ExampleMod
                 ["LG_dergrubengreaber_IFF"] = new IFFBlockStat()
                 {
                     MaxCharacters = 30, // maximum characters the IFF beacon will use
-                    ShowClass = true, // whether or not the IFF beacon name change will completely replace (false) or only add its name after the class name (true)
+                    ShowClass = false, // whether or not the IFF beacon name change will completely replace (false) or only add its name after the class name (true)
                 },
 				["SG_dergrubengreaber_IFF"] = new IFFBlockStat()
                 {
                     MaxCharacters = 30, // maximum characters the IFF beacon will use
-                    ShowClass = true, // whether or not the IFF beacon name change will completely replace (false) or only add its name after the class name (true)
+                    ShowClass = false, // whether or not the IFF beacon name change will completely replace (false) or only add its name after the class name (true)
                 },
             }
         };
