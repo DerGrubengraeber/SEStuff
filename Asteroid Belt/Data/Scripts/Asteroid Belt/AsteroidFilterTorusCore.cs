@@ -60,7 +60,7 @@ namespace AsteroidBelt
                 AsteroidFilterApi.SetAsteroidFilter("TorusFilter", 100, (asteroid) =>
                 {
                     var pos = asteroid.PositionComp.GetPosition();
-                    return !Torus.IsPointInTorus(pos.X, pos.Y, pos.Z, 60000, _r);
+                    return !Torus.IsPointInTorus(pos.X, pos.Y, pos.Z, _r-25000, _r+25000, 25000);
                 }, (asteroid) => { return false; });
 
             }

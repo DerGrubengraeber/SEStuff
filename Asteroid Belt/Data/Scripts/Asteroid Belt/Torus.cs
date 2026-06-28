@@ -6,10 +6,21 @@ namespace AsteroidBelt
 {
     public class Torus
     {
-        public static bool IsPointInTorus(double x, double y, double z, double R, double r)
+        //r1: Inner Radius
+        //r2 Outer Radius
+        //h: Height
+        public static bool IsPointInTorus(double x, double y, double z, double r1, double r2, double h)
         {
-            //(x^2+y^2+z^2-(a^2+b^2))^2-4a^2(b^2-z^2) source: https://stackoverflow.com/questions/13460711/given-origin-and-radii-how-to-find-out-if-px-y-z-is-inside-torus
-            if (Math.Pow((x * x + y * y + z * z - (R * R + r * r)), 2) - 4 * R * R * (r * r - z * z) < 0)
+            //Source: https://www.desmos.com/3d/654a76328a?lang=de
+            
+            double rMaj = (r2 + r1) / 2.0;
+            double rMin = (r2 - r1) / 2.0;
+            double distXY = Math.Sqrt(x * x + y * y);
+            double term1 = (distXY - rMaj) / rMin;
+            double term2 = z / h;
+            bool isInside = (term1 * term1 + term2 * term2) <= 1.0;
+    
+            if (isInside)
             {
                 //MyLog.Default.WriteLine("Asteroid at " + x + " " + y + " " + z + " Was spawned");
                 return true;
